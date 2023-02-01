@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info>
+    <id>readonlyuser</id>
+    <name>Read Only User</name>
+    <description>Allow making a user read only by adding them to a "readonly-users" group</description>
+    <licence>AGPL</licence>
+    <author>Michael Usher</author>
+    <version>0.0.1</version>
+    <namespace>ReadOnlyUser</namespace>
+    <category>other</category>
+    <types>
+      <filesystem/>
+    </types>
+    <dependencies>
+        <owncloud min-version="10" max-version="10" />
+    </dependencies>
+</info>
